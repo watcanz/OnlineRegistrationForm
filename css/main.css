@@ -173,6 +173,10 @@ header h1 {
   width: 40%;
 }
 
+label[for=zipcode]{
+  width: 100%;
+}
+
 /* Section: Newsletter */
 
 .newsletter {
@@ -196,7 +200,6 @@ header h1 {
 .newsletter fieldset:hover {
   border: #182e77 solid 1px;
 }
-
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -269,7 +272,10 @@ footer {
     width: 125px;
     margin-right: 50px;
   }
-
+  
+  #zipcode {
+    width: 25%;
+  }
 }  
 
 @media screen and (min-width: 1024px) {
@@ -280,9 +286,9 @@ footer {
   }
 
   hr {
-  width:95%;
-  margin: 5px auto;
-}
+    width:95%;
+    margin: 5px auto;
+  }
 
   .contactinfo > input,
   .contactinfo > select {
@@ -302,4 +308,7 @@ footer {
     margin-right: 50px;
   }
 
+  #zipcode {
+    width: 16%;
+  }
 }  
